@@ -6,6 +6,7 @@
 
 The project aims to develop a deep learning model that can **predict the next word** in a given sequence of words.
 We have used **LSTM (Long Short-Term Memory)** — a type of Recurrent Neural Network (RNN) — which is well-suited for sequence prediction tasks.
+Also used **GRU RNN** for better accuracy.
 
 **Example:**
 
