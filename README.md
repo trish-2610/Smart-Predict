@@ -5,20 +5,20 @@
 ## 📌 Project Objective
 
 The project aims to develop a deep learning model that can **predict the next word** in a given sequence of words.
-We have used **LSTM (Long Short-Term Memory)** — a type of Recurrent Neural Network (RNN) — which is well-suited for sequence prediction tasks.
+We have used **LSTM (Long Short-Term Memory)** which is  a type of Recurrent Neural Network (RNN) and it is well-suited for sequence prediction tasks.
 Also used **GRU RNN** for better accuracy.
 
 **Example:**
 
 ```
-Input: I am a good  
+Input: I am a good ____ 
 Output: [predicted word]
 ```
 
 ## 📂 Dataset
 
 * **Dataset Name**: *Shakespeare’s Hamlet*
-* **Source**: Inbuilt in the **`Gutenberg`** corpus from the **NLTK** library
+* **Source**: Inbuilt in the **`gutenberg`** corpus from the **NLTK** library
 
 ## 🧾 Input/Output Data
 
