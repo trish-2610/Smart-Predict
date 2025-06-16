@@ -1,8 +1,8 @@
-# SMART PREDICT
+## SMART PREDICT
 
 *Next Word Prediction using LSTM RNN*
 
-## 📌 Project Objective
+### Project Objective
 
 The project aims to develop a deep learning model that can **predict the next word** in a given sequence of words.
 We have used **LSTM (Long Short-Term Memory)** which is  a type of Recurrent Neural Network (RNN) and it is well-suited for sequence prediction tasks.
@@ -15,19 +15,19 @@ Input: I am a good ____
 Output: [predicted word]
 ```
 
-## 📂 Dataset
+### Dataset
 
 * **Dataset Name**: *Shakespeare’s Hamlet*
 * **Source**: Inbuilt in the **`gutenberg`** corpus from the **NLTK** library
 
-## 🧾 Input/Output Data
+### Input/Output Data
 
 * **Input**: Text sequences ( previous words )
 * **Output**: Predicted next word
 * **Type**: Multi-class Classification
   → Because any word from the vocabulary could be the output
 
-## ⚙️ Project Pipeline
+### Project Pipeline
 
 ```bash
 Data Collection
@@ -43,7 +43,7 @@ Streamlit Web App
 Deployment
 ```
 
-## 🧠 Model Highlights
+### Model Highlights
 
 * Sequence tokenization and padding
 * Embedding Layer ( text -> vectors )
@@ -51,13 +51,13 @@ Deployment
 * Dense output layer with softmax activation
 * Trained for multiple epochs using categorical crossentropy
 
-## 🧪 Technologies Used
+### Technologies Used
 
-* TensorFlow and Keras
-* NLTK
+* TensorFlow and Keras ( for Data Preprocessing and Model Building & Training )
+* NLTK ( for dataset )
 * Streamlit ( for building the web app and deployment )
 
-## 🚀 Deployment
+### Deployment
 
 The model is wrapped in a **Streamlit Web App** for interactive next-word predictions.
 
